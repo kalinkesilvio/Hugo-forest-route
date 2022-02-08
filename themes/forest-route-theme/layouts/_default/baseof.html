@@ -4,8 +4,10 @@
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{- block "main" . }}
+        {{- end }}
         </div>
+        <!--<img src='{{ "images/landingpageIMG.jpg" | absURL }}' class="img-fluid">-->
         {{- partial "footer.html" . -}}
         {{- partial "script.html" . -}}
     </body>
